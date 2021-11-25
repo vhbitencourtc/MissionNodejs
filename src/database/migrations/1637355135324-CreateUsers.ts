@@ -50,4 +50,5 @@ export class CreateUsers1637355135324 implements MigrationInterface {
 
 }
 
-/*Metodo de criação de conexão com SQLLite Beekeeper Studio*/
+/*Metodo de criação de conexão com SQLLite Beekeeper Studio;
+*/

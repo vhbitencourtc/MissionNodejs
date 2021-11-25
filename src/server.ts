@@ -27,6 +27,7 @@ if(err instanceof Error){
 
 app.listen(3000, () => console.log("Server is running"));
 
-/*Metodo de criação de conexão com BD*/
-/*Importado a Router e executação ao Server*/
-/*app.use criado um Middleware*/
+/*Metodo de criação de conexão com BD;
+*Importado a Router e executação ao Server;
+*app.use criado um Middleware;
+*/

@@ -16,9 +16,9 @@ class CreateUserController {
 
 export { CreateUserController };
 
-/*Metodo de criação de conexão com Entidades
-*Importado as configurações de Services
-*Tratando nossa try/catch
-*Middleware - Interceptadores que temos em uma requisição
+/*Metodo de criação de conexão com Entidades;
+*Importado as configurações de Services;
+*Tratando nossa try/catch;
+*Middleware - Interceptadores que temos em uma requisição;
 *Inserido o PASSWORD;
 */

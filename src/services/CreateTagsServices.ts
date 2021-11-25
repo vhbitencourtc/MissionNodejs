@@ -5,6 +5,7 @@ class CreateTagsServices {
     async execute(name: string) {
         const tagRepository = getCustomRepository(TagsRepositories);
 
+        //Validando se o nome está correto!
         if (!name) {
             throw new Error("O nome está incorreto!");
         }
@@ -13,6 +14,7 @@ class CreateTagsServices {
             name
         });
 
+        //Validando se a TAG está cadastrada!
         if (tagAlreadyExists) {
             throw new Error("TAG já cadastrada!");
         }

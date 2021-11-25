@@ -10,9 +10,10 @@ interface IUserRequest {
 }
 
 class CreateUserServices {
-    async execute({ name, email, admin, password }: IUserRequest) {
+    async execute({ name, email, admin = false, password }: IUserRequest) {
         const userRepository = getCustomRepository(UserRepositories);
 
+        //Validando se o e-mail está cadastrado!
         if (!email) {
             throw new Error("O e-mail está incorreto!");
         }
@@ -21,6 +22,7 @@ class CreateUserServices {
             email,
         });
 
+        //Validando se o usuário já está cadastrado!
         if (usersAlreadyExists) {
             throw new Error("Usuário já cadastrado!");
         }
@@ -40,8 +42,8 @@ class CreateUserServices {
 
 export { CreateUserServices };
 
-/*Metodo de criação de Serviços do Usuario
-*(const user)Instancia do meu objeto de guardar as informações do Usuario
+/*Metodo de criação de Serviços do Usuario;
+*(const user)Instancia do meu objeto de guardar as informações do Usuario;
 *Inserido o PASSWORD;
 * Para criptografa as senhas do USERS, bcryptjs;
 */

@@ -46,7 +46,7 @@ class AuthenticateUserServices {
 export { AuthenticateUserServices }
 
 /**
- *Compare é função do bcryptjs que valida se a cripto da senha
+ *Compare é função do bcryptjs que valida se a cripto da senha;
  bate com a senha digitada pelo USER;
  *Sign é um atributo do JWT que utiliza a nossa chave para
  assinar e validar os TOKENS dos usuários;

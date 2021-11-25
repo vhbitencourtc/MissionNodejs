@@ -33,7 +33,7 @@ class User {
 
 export { User };
 
-/*Metodo de criação de conexão com Entidades
-*V4 é uma forma de gerar id aleatorios
+/*Metodo de criação de conexão com Entidades;
+*V4 é uma forma de gerar id aleatorios;
 *Inserido o PASSWORD;
 */
