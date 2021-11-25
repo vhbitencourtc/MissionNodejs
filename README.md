@@ -2,4 +2,4 @@
 
 ### Protejo aplicado pela Daniela Leão
 #
-Projeto em andamento. 60% de conclusão!
+Projeto Finalizado. Pontos de Melhorias Anotados para verificação!
